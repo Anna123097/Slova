@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityTheBest"
+    android:background="@drawable/bg_v"
+    >
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/the_best"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+         />
+
+    <ImageView
+        android:id="@+id/imageNum1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_num1"
+        app:layout_constraintTop_toBottomOf="@id/imageView4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+
+         />
+    <ImageView
+        android:id="@+id/imageNum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/two"
+        app:layout_constraintTop_toBottomOf="@id/imageNum1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+
+        />
+ <ImageView
+        android:id="@+id/imageNum3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/thre"
+        app:layout_constraintTop_toBottomOf="@id/imageNum2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+
+        />
+ <ImageView
+        android:id="@+id/imageNum4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/forth"
+        app:layout_constraintTop_toBottomOf="@id/imageNum3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+
+        />
+ <ImageView
+        android:id="@+id/imageNum5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/five"
+        app:layout_constraintTop_toBottomOf="@id/imageNum4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textViewRes1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Pupkin"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="35dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewRes2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Pupkin"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRes1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="28dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewRes3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Pupkin"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRes2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="28dp"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textViewRes4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Pupkin"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRes3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="28dp"
+        android:textSize="20dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/textViewRes5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Pupkin"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRes4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="28dp"
+        android:textSize="20dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
